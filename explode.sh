@@ -9,13 +9,13 @@ while getopts 'n' flag; do
 done
 
 if [ "$n_flag" = true ]; then
-  echo "Dry run, not copying files"
+  echo "Dry run, no files will be copied"
 fi
 
 while read path; do
   filename="$(basename -- $path)"
+  echo "backups/$filename to $path"
   if [ "$n_flag" = false ]; then
-    echo "Copying $filename to $path"
-    cp "$filename" "${path/#\~/$HOME}"
+    cp "backups/$filename" "${path/#\~/$HOME}"
   fi
 done < files

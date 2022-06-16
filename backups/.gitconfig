@@ -1,10 +1,10 @@
 [user]
 	email = cimon.carlson@gmail.com
-	name = Simon Carlson
+	name = simoncarlson
 [alias]
-	a = add
 	s = status
-	l = log
 	c = commit
-	cp = cherry-pick
-	d = diff
+	a = add
+	ss = status -s
+[core]
+	editor = vim
