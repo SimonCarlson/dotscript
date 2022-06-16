@@ -1,0 +1,10 @@
+[user]
+	email = cimon.carlson@gmail.com
+	name = Simon Carlson
+[alias]
+	a = add
+	s = status
+	l = log
+	c = commit
+	cp = cherry-pick
+	d = diff
