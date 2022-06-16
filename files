@@ -1,6 +1,6 @@
 ~/.gitconfig
 ~/.spacemacs
 ~/.config/i3/config
-/usr/local/bin/kerl
-/usr/local/bin/kiex
-/usr/local/bin/screenrec
+~/bin/kerl
+~/bin/kiex
+~/bin/screenrec
