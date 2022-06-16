@@ -5,6 +5,9 @@ alias cal="ncal -bM -B1 -A1"
 alias g="git"
 . /usr/share/bash-completion/completions/git
 __git_complete g __git_main
+
+# For this to work you have to remove the auto-generated lines
+# checking `if [ "$color_prompt" = yes ]; then ...`
 parse_git_branch() {
  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }

@@ -6,5 +6,6 @@
 	c = commit
 	a = add
 	ss = status -s
+	d = diff
 [core]
 	editor = vim
