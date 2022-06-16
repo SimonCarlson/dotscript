@@ -7,5 +7,6 @@
 	a = add
 	ss = status -s
 	d = diff
+	l = log
 [core]
 	editor = vim
