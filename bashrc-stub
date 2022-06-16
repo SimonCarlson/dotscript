@@ -1,0 +1,7 @@
+alias weather="curl wttr.in"
+
+alias cal="ncal -bM -B1 -A1"
+
+alias g="git"
+. /usr/share/bash-completion/completions/git
+__git_complete g __git_main
